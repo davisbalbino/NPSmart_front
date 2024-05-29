@@ -1,13 +1,16 @@
+
 .navbar{
     position: absolute;
     top: 0;
-    width: 100%;
+    left: 0;
     height: 6vh;
+    width: 100%;
     background-color: #000000c4;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0 1%;
+  
+    
 }
 .menu-icon {
     display: flex;
@@ -16,6 +19,7 @@
     width: 40px;
     height: 30px;
     cursor: pointer;
+    margin-left: 1%;
 }
 
 .bar {
@@ -30,6 +34,7 @@
     align-items: center;
     flex-direction: row;
     gap:1vw;
+    min-width: 50%;
 }
 .icon-logo img{
     height: 100%;

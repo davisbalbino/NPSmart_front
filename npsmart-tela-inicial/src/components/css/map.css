@@ -1,0 +1,21 @@
+.content{
+    position: absolute;
+    top: 6vh;
+    left: 0;
+    height: 94vh;
+    width: 100vw;
+    display: flex;
+    background-image: url('exagons.jpg');
+    background-size: cover;
+}
+.card{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brazil-map {
+}
+.card-tables {
+}
