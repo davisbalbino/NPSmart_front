@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NPSmart_front/static/css/main.38f80bd4.css",
+    "main.js": "/NPSmart_front/static/js/main.6ea4f49c.js",
+    "static/js/453.5e12b043.chunk.js": "/NPSmart_front/static/js/453.5e12b043.chunk.js",
+    "static/media/exagons.jpg": "/NPSmart_front/static/media/exagons.14bdc216e46e79ecc520.jpg",
+    "static/media/slick.svg": "/NPSmart_front/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/NPSmart_front/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/NPSmart_front/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/NPSmart_front/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/NPSmart_front/index.html",
+    "main.38f80bd4.css.map": "/NPSmart_front/static/css/main.38f80bd4.css.map",
+    "main.6ea4f49c.js.map": "/NPSmart_front/static/js/main.6ea4f49c.js.map",
+    "453.5e12b043.chunk.js.map": "/NPSmart_front/static/js/453.5e12b043.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38f80bd4.css",
+    "static/js/main.6ea4f49c.js"
+  ]
+}
