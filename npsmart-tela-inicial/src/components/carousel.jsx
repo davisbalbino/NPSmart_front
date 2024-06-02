@@ -38,8 +38,8 @@ const VerticalCarousel = ({ goToSlide }) => {
       <div className="vertical-carousel">
         <Slider ref={sliderRef} {...settings}>
           {
-            Array.from({length:27}).map((_,index) =>(
-              <div key={index} className="carousel-item">
+            data.map((item,index) =>(
+              <div key={item.value} className="carousel-item">
                 <div>{data[index].name}</div>
                 <Table index={index} updateCount={updateCount} slideIndex={slideIndex} />
               </div>

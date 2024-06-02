@@ -15,7 +15,7 @@ const CardMap = memo(({onStateClick}) => {
       // data and map.
       
       // Create the chart
-      const chart = Highcharts.mapChart('container', {
+       Highcharts.mapChart('container', {
         chart: {
           map: topology,
           backgroundColor: 'transparent' // Fundo transparente
