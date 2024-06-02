@@ -9,7 +9,10 @@
     "@testing-library/user-event": "^13.5.0",
     "highcharts": "^11.4.3",
     "highcharts-react-official": "^3.2.1",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.6.6",
     "react": "^18.3.1",
+    "react-data-table-component": "^7.6.2",
     "react-dom": "^18.3.1",
     "react-google-charts": "^4.0.1",
     "react-scripts": "5.0.1",
@@ -22,8 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build -- --branch gh-pages",
+    "deploy": "gh-pages -d build -b gh-pages"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +50,4 @@
     "gh-pages": "^6.1.1"
   },
   "homepage": "https://davisbalbino.github.io/NPSmart_front"
-
 }

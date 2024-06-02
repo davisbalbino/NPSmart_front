@@ -1,21 +1,28 @@
-import React, { Component } from "react";
+import React, {useState} from 'react';
 import "./css/map.css"; 
 import CardMap from "./brasil-map";
 import CarouselCard from "./carousel";
-class Map extends Component {
+
+const Map = () => {
+
+  const [selectedSlide, setSelectedSlide] = useState(null);
+
+  const handleStateClick = (event) => {
+    setSelectedSlide(event)
     
-  render() {
+  };
+
+ 
     return (
       <div className="content">
         <div  className="brazil-map card">
-            <CardMap/>
+            <CardMap onStateClick={handleStateClick}/>
         </div>
         <div className="card-tables card">
-            <CarouselCard/>
+            <CarouselCard goToSlide={selectedSlide} />
         </div>
       </div>
     );
-  }
-}
+};
 
 export default Map;

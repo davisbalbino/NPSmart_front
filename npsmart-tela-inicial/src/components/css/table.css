@@ -1,0 +1,64 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    padding-right: 10px;
+    padding-left: 10px
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .custom-table thead tr {
+    background-color: #2a3432;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 12px 15px;
+  }
+  
+  .custom-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .custom-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .custom-table tbody tr:last-of-type {
+    border-bottom: 2px solid #2a3432;
+  }
+  .custom-table::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  
+  .custom-table::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 4px; /* Scroll arredondado */
+  }
+  
+  .custom-table::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+   
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+  
